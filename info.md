@@ -8,13 +8,13 @@ O site sorteio animal, tem como objetivo sortear animais domesticos como forma d
 
 ## Como Funciona:
 
-### Anunciante
+##### Anunciante
 O anunciante acessa a página cadastro, seleciona opção anunciante, e registra os animais que deseja para premiação.
 
-## Consumidor
+##### Consumidor
 O consumidor acessa a página cadastro, seleciona opção consumidor, e registra os dados pessoais para participar do sorteio.
 
-## Sorteio
+##### Sorteio
 Após a realização do cadastro, o consumidor acessará a página sorteio para verificar se foi sorteado. Enquanto o anunciante realizará o sorteio.
 
 
