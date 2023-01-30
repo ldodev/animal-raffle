@@ -110,10 +110,15 @@ form label {
   align-items: center;
   color: white;
   border-radius: 10px;
+  opacity: 1;
+  transition: opacity 3s ease-out;
 }
 
 .submodal p{
     font-size:16pt;
     color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px;
 }
 
