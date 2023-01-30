@@ -23,5 +23,21 @@ let usuariosSorteio = [];
 
       console.log("registrado usuario")
       
-      
     })
+
+ function modal(){
+
+    console.log("ok");
+     
+     let mod = document.getElementById("body");
+     mod.innerHTML = `<div id="modal" class="modal"> 
+                      <div class="submodal">
+                         <p>Registro efetudo com sucesso!</p>
+                        <p>Deseja realizar o cadastro para outra pessoa participar do sorteio? </p>
+                         <p> <a href="cadastro.html">Sim</a> <a href="sorteado.html">Não</a></p>
+                      </div> 
+                      </div>`;
+
+   console.log(mod.innerHTML);
+      
+}
