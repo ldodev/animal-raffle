@@ -18,11 +18,11 @@ let usuariosSorteio = [];
       // Armazenar registro do usuário no localStorage
       localStorage.setItem("usuarioSorteio", JSON.stringify(usuariosSorteio));
 
-      console.log("registrado usuario")
-       
+      console.log("Usuário Registrado.");
+      modal();
       
       
-    }).modal();
+    })
 
  function modal(){
 
@@ -36,7 +36,5 @@ let usuariosSorteio = [];
                          <p> <a href="cadastro.html">Sim</a> <a href="sorteados.html">Não</a></p>
                       </div> 
                       </div>`;
-
-   console.log(mod.innerHTML);
       
 }
