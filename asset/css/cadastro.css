@@ -101,17 +101,19 @@ form label {
    
 }
 
-.modal div{
-  margin-top: 20%;
+.submodal{
+  padding:20px;  
   width:40%;
   height: 40%;
-  padding: 20px;
   border: 2px solid white;
   justify-content: center;
   align-items: center;
   color: white;
   border-radius: 10px;
-  z-index: 15;
+}
 
+.submodal p{
+    font-size:16pt;
+    color: white;
 }
 
