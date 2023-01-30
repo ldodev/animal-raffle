@@ -22,6 +22,8 @@ let usuariosSorteio = [];
       btnCadastro.disabled = true;
 
       console.log("registrado usuario")
+       
+      modal();
       
     })
 
