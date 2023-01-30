@@ -18,14 +18,11 @@ let usuariosSorteio = [];
       // Armazenar registro do usuário no localStorage
       localStorage.setItem("usuarioSorteio", JSON.stringify(usuariosSorteio));
 
-      // Desativar o botão de cadastro
-      btnCadastro.disabled = true;
-
       console.log("registrado usuario")
        
-      modal();
       
-    })
+      
+    }).modal();
 
  function modal(){
 
@@ -36,7 +33,7 @@ let usuariosSorteio = [];
                       <div class="submodal">
                          <p>Registro efetudo com sucesso!</p>
                         <p>Deseja realizar o cadastro para outra pessoa participar do sorteio? </p>
-                         <p> <a href="cadastro.html">Sim</a> <a href="sorteado.html">Não</a></p>
+                         <p> <a href="cadastro.html">Sim</a> <a href="sorteados.html">Não</a></p>
                       </div> 
                       </div>`;
 
