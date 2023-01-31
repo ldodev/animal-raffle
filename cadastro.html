@@ -30,19 +30,18 @@
 
   <main>
   
-  <h1>Efetue o Cadastro</h1>
-  <h2>Necessário para participar do sorteio no site.</h2>
+  <h1>Cadastro</h1>
+  <h2>Preencha o formulário abaixo para participar do sorteio.</h2>
 
-  <form>
-    <label>Nome: </label> <input type="text" name="nome" id="nome" required placeholder="Digite o nome"> <br>
+  <form id="cadastra-form" method="post">
+    <label>Nome: </label> <input type="text" name="nome" id="nome" errormessage=""> <br>
 
-    <label>Sobrenome: </label> <input type="text" name="sobrenome" id="sobrenome" required placeholder="Digite o sobrenome"> <br>
+    <label>Sobrenome: </label> <input type="text" name="sobrenome" id="sobrenome"> <br>
 
-    <label>Email: </label> <input type="email" name="email" id="email" required placeholder="Digite o email"> <br>
+    <label>Email: </label> <input type="text" name="email" id="email" >
 
-    <label>Você mora em: </label> <br> <input type="radio" name="tipoMoradia" id="tipoMoradia" value="1" checked="true"> Fazenda  <input type="radio" id="tipoMoradia" name="tipoMoradia" value="2"> Casa/Apartamento  
-
-    <button id="btnCadastro">Enviar</button>
+    <div id="msg-error"></div>
+    <button id="btnCadastro" type="submit" >Enviar</button>
   </form>
 
 </main>
@@ -51,6 +50,6 @@
     <p>Sorteio Animal - Desenvolvido por Rafael Leal - Disciplina Desenvolvimento Web</p>
   </footer>
 
-  <script src="./asset/js/cadastro.js"></script>
+ <script src="./asset/js/cadastro.js"></script> 
 </body>
 </html>
