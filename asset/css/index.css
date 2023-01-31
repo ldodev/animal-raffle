@@ -13,18 +13,47 @@
     to { background: url("../img/destaque.jpg") no-repeat center; background-size: contain; filter: opacity(95%); }
   }
 
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   h2{
     color: rgb(55, 55, 55);
-  
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    align-items:center;
-    justify-content:center;
     z-index: 6;
-    font-size: 25pt;
+    font-size: 23pt;
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
-    margin-top: 20px;
-    text-shadow: 0.1em 0.1em 0.2em rgb(219, 247, 6);
+    text-shadow: 0.1em 0.1em 0.2em rgb(239, 224, 6);
   }
+
+  .participar{
+
+    font-size:15pt;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding: 7px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+
+.participar:hover{
+
+    font-size:15pt;
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(254, 250, 3);
+    border-radius: 5px;
+    padding: 7px;
+    text-decoration: none;
+
+}
