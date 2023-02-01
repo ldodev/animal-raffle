@@ -76,33 +76,31 @@ function cadastrar(event) {
 
 
     //Armazenar no array
-    let usuariosSorteio = [];
+    let usuariosSorteio = new Array()
 
     // Verificar se há um usuário cadastrado no localstorage
     const user = window.localStorage.getItem('usuarioSorteio');
 
     if (!user) {
      console.log("não tem usuário cadastro no localstorage.");
-     usuariosSorteio.push({nome: nome, sobrenome: sobrenome, email: email});
-
+     usuariosSorteio.push({nome: nome, sobrenome: sobrenome, email: email, pet: "", image: ""});
+     localStorage.setItem("usuarioSorteio", JSON.stringify(usuariosSorteio));
+    
     }
     else{
-    //tem usuário cadastro no localstorage
-    console.log("tem usuário cadastro no localstorage.");
+       //tem usuário cadastro no localstorage
+        console.log("tem usuário cadastro no localstorage.");
        // Converte este json para objeto
         usuariosSorteio = JSON.parse(user);
-        usuariosSorteio.push({nome: nome, sobrenome: sobrenome, email: email});
+        usuariosSorteio.push({nome: nome, sobrenome: sobrenome, email: email, pet: "", image: ""});
+        
+        //gravar no localstorage
+        localStorage.setItem("usuarioSorteio", JSON.stringify(usuariosSorteio));
+        console.log(JSON.stringify(usuariosSorteio))
     }
 
-    // Armazenar registro do usuário no localStorage
-    localStorage.setItem("usuarioSorteio", JSON.stringify(usuariosSorteio));
-
-    console.log(JSON.stringify(usuariosSorteio));
-
-    console.log("Usuário Registrado no localstorage");
-
     //abrir janela modal de confirmação
-    modal();
+     modal();
   
 }
 
