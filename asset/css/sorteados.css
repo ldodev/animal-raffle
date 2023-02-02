@@ -98,6 +98,10 @@ h1{
   color: rgba(0, 0, 0, 0.696);
   font-weight: 900;
   font-family: 'Roboto', sans-serif;
+  text-overflow: ellipsis;
+  max-width: 24ch;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 
