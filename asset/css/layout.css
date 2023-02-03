@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  header{
+    width: 100%;
+    height: 70px;
+    animation: menu 10s infinite;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+   
+  }
+
+  @keyframes menu {
+    from {background-color: rgb(4, 17, 121); }
+    to {background-color: rgb(255, 213, 0);  }
+  }
+  
+  #container-img{
+    width: 180px;
+    height: 70px;
+    border-radius: 0px 100px 0 0;
+    padding-left: 10px;
+    background-color: white;
+  }
+  
+.logo{
+      background-image: url(../img/logo.png);
+      background-repeat: no-repeat;
+      background-size:contain;
+      width: 140px;
+      height: 180px;
+      border-radius: 0px 45px 0 0;
+ }
+  
+.menu {
+      width: 100%;
+      height: 75px;
+      text-align: center;
+      align-items:center;
+      display: flex;
+      justify-content:right;
+      
+
+ }
+
+.menu a{
+        color: white;
+        height: 47px;
+        width: 120px;
+        text-align: center;
+        align-items:center;
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-top: 20px;
+        border-radius: 10px 10px 0 0;
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+        border-top: 2px solid  white;
+  }
+
+ .menu a:hover{
+        text-decoration: none;  
+        color:black;
+        background-color: rgb(255, 255, 255);
+        height: 50px;
+        font-weight: bold;
+        border-left: 2px dashed  #333;
+        border-right: 2px dashed  #333;
+        border-top: 2px dashed  #333;
+        border-radius: 15px 15px 0 0;
+        margin-top: 15px;
+        font-size: 1.2rem;
+    }
+
+  footer {
+        background-color: #333;
+        color: white;
+        width: 100%;
+        height: 32px;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+        border-top: solid 2px rgb(240, 253, 2);
+      
+  
+      }
+
+   footer p{
+
+        color: white;
+        font-size: 1rem;
+      
+   }   
+
+   
+
+   @media only screen and (max-width: 700px) {
+
+    header{
+      width: 100%;
+      height: 54px;
+      animation: menu 10s infinite;
+      display: flex;
+      flex-direction: row;
+      justify-content:space-between;
+     
+    }
+
+   
+
+    #container-img{
+      width: 170px;
+      height: 70px;
+      border-radius: 0px 100px 0 0;
+      padding-left: 0px;
+      background-color: white;
+    }
+    
+  .logo{
+        background-image: url(../img/logo.png);
+        background-repeat: no-repeat;
+        background-size:contain;
+        width: 100px;
+        height: 120px;
+        border-radius: 0px 45px 0 0;
+   }
+
+   .menu {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    align-items:center;
+    display: flex;
+    justify-content:right;
+    
+
+}
+    
+  
+  .menu a{
+          color: white;
+          height: 37px;
+          width: 70px;
+          text-align: center;
+          align-items:center;
+          display: flex;
+          justify-content: center;
+          text-decoration: none;
+          font-size: 0.8rem;
+          font-weight: bold;
+          margin-top: 20px;
+          border-radius: 10px 10px 0 0;
+          border-left: 2px solid white;
+          border-right: 2px solid white;
+          border-top: 2px solid  white;
+    }
+  
+   .menu a:hover{
+          text-decoration: none;  
+          color:black;
+          background-color: rgb(255, 255, 255);
+          height: 50px;
+          font-weight: bold;
+          border-left: 2px dashed  #333;
+          border-right: 2px dashed  #333;
+          border-top: 2px dashed  #333;
+          border-radius: 15px 15px 0 0;
+          margin-top: 15px;
+      }
+  
+    footer {
+          background-color: #333;
+          color: white;
+          width: 100%;
+          height: 32px;
+          display: flex;
+          flex-direction: row;
+          justify-content:center;
+          align-items: center;
+          border-top: solid 2px rgb(240, 253, 2);
+          
+          vertical-align: bottom;
+     
+    
+        }
+  
+     footer p{
+  
+          color: white;
+          font-size: 0.8rem;
+        
+     }   
+
+   }
+      
