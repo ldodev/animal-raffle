@@ -1,2 +1,3 @@
-# sorteioanimal.github.io
-Sorteio Aleatório de Animais
+# Site Sorteio Animal
+
+- Sorteio Aleatório de Animais para premiação
