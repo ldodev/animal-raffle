@@ -1,3 +1,3 @@
-# Sorteio de Animais
+# Animal Raffle
 
-- O site simula um jogo que sorteio aleatório animais para premiação.
+Site that simulates a game of random drawing of animals.
