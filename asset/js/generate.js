@@ -18,7 +18,6 @@ function sorteioAnimal() {
 const userSorteio = window.localStorage.getItem('usuarioSorteio');
 if (!userSorteio) {
   alert("You need to register before raffle an animal.");
-  return;
 }
 
 let user2 = JSON.parse(userSorteio);
