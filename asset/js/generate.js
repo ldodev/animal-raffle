@@ -17,7 +17,7 @@ function sorteioAnimal() {
 // Verificar se há um usuário cadastrado
 const userSorteio = window.localStorage.getItem('usuarioSorteio');
 if (!userSorteio) {
-  alert("You need to register before raffle an animal.");
+  modal2();
 }
 
 let user2 = JSON.parse(userSorteio);
@@ -73,6 +73,26 @@ function modal(){
                       <div class="submodal-link">
                       <br>
                       <p> <a href="result.html">OK</a></p>
+                      </div>
+                   </div> 
+                   </div>`;
+   
+}
+
+// janela modal de confirmação
+function modal2(){
+
+     
+  let mod = document.getElementById("body");
+  mod.innerHTML = `<div id="modal" class="modal"> 
+                   <div class="submodal">
+
+                   <div class="submodal-ok">
+                      <p>You need to register before raffle an animal.</p>
+                   </div>
+                      <div class="submodal-link">
+                      <br>
+                      <p> <a href="register.html">OK</a></p>
                       </div>
                    </div> 
                    </div>`;
