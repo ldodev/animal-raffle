@@ -9,7 +9,7 @@ if (!userSorteados) {
   result.innerHTML = `<div class="resultado">
   
   <div class="semSorteio">
-  <p>The result of the draw has not yet been generated.</p>
+  <p>The result of the raffle has not yet been generated.</p>
   </div>
   
   </div>`
