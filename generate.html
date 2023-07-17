@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,9 +21,9 @@
       <div id="container-img"><a href="index.html"><div class="logo"></div></a></div>
 
       <div class="menu">
-      <a  href="cadastro.html">Cadastro</a>
-      <a href="sorteados.html">Sorteados</a>
-      <a class="link-active" href="gestao.html">Gestão</a>
+      <a  href="register.html">Register</a>
+      <a href="result.html">Raffle result</a>
+      <a class="link-active" href="generate.html">Generate raffle</a>
       
     </div>
   </header>
@@ -31,12 +31,11 @@
 
 <main>
   
-  <h1>Gestão</h1>
-  <h2>Painel de administração</h2>
+  <h1>Generate raffle</h1>
 
   <form id="sorteio-form" method="post">
-    <p>Sortear animais para premiação:</p><br>
-    <button  id="btnSortear" type="submit" onclick="sorteioAnimal()">Iniciar Sorteio</button>
+    <p>Generate random raffle of animals:</p><br>
+    <button  id="btnSortear" type="submit" onclick="sorteioAnimal()">Start Raffle</button>
   </form>
 
  
@@ -45,7 +44,7 @@
  
 
   <footer>
-    <p>Sorteio Animal - Desenvolvido por Rafael Leal</p>
+    <p>Copyleft - Site Animal Raffle - powered by ldodev.uk</p>
   </footer>
 
   <script src="./asset/js/gestao.js"></script>
