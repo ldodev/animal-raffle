@@ -123,7 +123,7 @@ cadastraForm.addEventListener("submit", cadastrar);
                          <div class="submodal-link">
                          <br>
                         <p>Register someone else to participate in the raffle?</p> <br>
-                         <p> <a href="register.html">Sim</a> <a href="generate.html">Não</a></p>
+                         <p> <a href="register.html">Yes</a> <a href="generate.html">No</a></p>
                          </div>
                       </div> 
                       </div>`;
