@@ -1,14 +1,14 @@
   //lista de animais
   const animais = [
-    { pet: "Cão", image: "asset/img/cao.gif" },
-    { pet: "Gato", image: "asset/img/gato.gif" },
-    { pet: "Peixe", image: "asset/img/peixe.gif" },
-    { pet: "Coelho", image: "asset/img/coelho.gif" },
-    { pet: "Pássaro", image: "asset/img/passaro.gif" },
+    { pet: "Dog", image: "asset/img/cao.gif" },
+    { pet: "Cat", image: "asset/img/gato.gif" },
+    { pet: "Fish", image: "asset/img/peixe.gif" },
+    { pet: "Rabbit", image: "asset/img/coelho.gif" },
+    { pet: "Bird", image: "asset/img/passaro.gif" },
     { pet: "Hamsters", image: "asset/img/hamster.gif" },
-    { pet: "Cavalo", image: "asset/img/cavalo.gif" },
-    { pet: "Galinha", image: "asset/img/galinha.gif" },
-    { pet: "Porco", image: "asset/img/porco.gif" },
+    { pet: "Horse", image: "asset/img/cavalo.gif" },
+    { pet: "Chicken", image: "asset/img/galinha.gif" },
+    { pet: "Pig", image: "asset/img/porco.gif" },
   ];
 
   // Função para sortear animais
