@@ -17,7 +17,7 @@ function sorteioAnimal() {
 // Verificar se há um usuário cadastrado
 const userSorteio = window.localStorage.getItem('usuarioSorteio');
 if (!userSorteio) {
-  alert("Você precisa se cadastrar antes de sortear um animal.");
+  alert("You need to register before raffle an animal.");
   return;
 }
 
@@ -69,11 +69,11 @@ function modal(){
                    <div class="submodal">
 
                    <div class="submodal-ok">
-                      <p>Sorteio realizado com sucesso.</p>
+                      <p>Raffle held successfully.</p>
                    </div>
                       <div class="submodal-link">
                       <br>
-                      <p> <a href="sorteados.html">OK</a></p>
+                      <p> <a href="result.html">OK</a></p>
                       </div>
                    </div> 
                    </div>`;
