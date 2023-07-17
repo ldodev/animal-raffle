@@ -9,7 +9,7 @@ if (!userSorteados) {
   result.innerHTML = `<div class="resultado">
   
   <div class="semSorteio">
-  <p>Por favor aguarde, em breve será publicado o resultado do sorteio.</p>
+  <p>The result of the draw has not yet been generated.</p>
   </div>
   
   </div>`
@@ -22,7 +22,7 @@ else
   
   result.innerHTML = `<div class="resultadoSorteio"> 
 
-  <h2 style="margin-bottom:30px;">Parabéns ${user2.nome}, você foi sorteado!</h2>
+  <h2 style="margin-bottom:30px;">Congratulations ${user2.nome}, you were raffle!</h2>
   
   <div class="resultado_detalhes">
 
@@ -30,8 +30,8 @@ else
 
 
   <ul>
-  <li>Vencedor: ${user2.nome} ${user2.sobrenome} </li> 
-  <li>Prêmio: ${user2.pet} </li> 
+  <li>Winner: ${user2.nome} ${user2.sobrenome} </li> 
+  <li>Award: ${user2.pet} </li> 
   </ul>
 
  

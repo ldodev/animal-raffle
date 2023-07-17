@@ -29,12 +29,12 @@ function cadastrar(event) {
     // Validação dos inputs
     if (!nome) {
         nomeI.className = "error";
-        msgError.innerText = "Preencha o campo nome."
+        msgError.innerText = "Fill in the name field."
         return;
     }
     if (!validarNome(nome)) {
         nomeI.className = "error";
-        msgError.innerText  = "preencha o campo nome somente com letras."
+        msgError.innerText  = "fill in the name field with letters only."
         return;
     }
 
@@ -42,12 +42,12 @@ function cadastrar(event) {
     nomeI.className = "";
 
     if (!sobrenome) {
-        msgError.innerText = "preencha o campo sobrenome."
+        msgError.innerText = "fill in the last name field."
         sobrenomeI.className = "error";
         return;
     }
     if (!validarNome(sobrenome)) {
-        msgError.innerText = "Por favor, preencha o campo sobrenome somente com letras.";
+        msgError.innerText = "Please fill in the last name field with letters only.";
         sobrenomeI.className = "error";
         return;
     }
@@ -56,12 +56,12 @@ function cadastrar(event) {
     sobrenomeI.className = "";
 
     if (!email) {
-        msgError.innerText = "Por favor, preencha o campo email.";
+        msgError.innerText = "Please fill in the email field.";
         emailI.className = "error";
         return;
     }
     if (!validarEmail(email)) {
-        msgError.innerText = "Por favor, preencha o campo email corretamente.";
+        msgError.innerText = "Please fill in the email field correctly.";
         emailI.className = "error";
         return;
     }
@@ -118,12 +118,12 @@ cadastraForm.addEventListener("submit", cadastrar);
                       <div class="submodal">
 
                       <div class="submodal-ok">
-                         <p>Parabéns, você está participando do sorteio. Acompanhe o resultado na aba sorteados.</p>
+                         <p>Congratulations, you are participating in the raffle.</p>
                       </div>
                          <div class="submodal-link">
                          <br>
-                        <p>Cadastrar outra pessoa para participar do sorteio?</p> <br>
-                         <p> <a href="cadastro.html">Sim</a> <a href="sorteados.html">Não</a></p>
+                        <p>Register someone else to participate in the raffle?</p> <br>
+                         <p> <a href="register.html">Sim</a> <a href="generate.html">Não</a></p>
                          </div>
                       </div> 
                       </div>`;
