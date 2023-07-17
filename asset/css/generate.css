@@ -104,9 +104,9 @@ p {
 .modal{
    width: 100vw;
    height: 100vh;
-   background-image: linear-gradient(to top left, rgb(0, 0, 0), rgb(54, 54, 54), rgb(255, 0, 0)); 
+   background-image: linear-gradient(to top left, rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0)); 
    z-index: 15;
-   filter: opacity(97%);
+   filter: opacity(95%);
    position: fixed;
 }
 
